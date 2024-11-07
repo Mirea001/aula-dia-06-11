@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafad2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centraliza verticalmente a box na tela */
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente os elementos dentro da box */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.setor, .prioridade, .descricao, .status {
+    width: 100%; /* Define o mesmo tamanho para os campos */
+    max-width: 300px; /* Limita a largura máxima dos campos */
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 8px 0; /* Espaçamento vertical entre os campos */
+}
+
+button, input, option, select {
+    margin: 5px;
+    background-color: #de7700;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
